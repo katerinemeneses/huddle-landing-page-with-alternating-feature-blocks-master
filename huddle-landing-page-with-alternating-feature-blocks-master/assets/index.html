@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+  <!-- <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet"> -->
+  <title>Frontend Mentor | Huddle landing page with alternating feature blocks</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <!--Enlazar el html con el css-->
+  <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <img src="./images/logo.svg" alt="">
+      <a href="https://www.youtube.com" class="btn btn_nav">Try It Free</a>
+    </nav>
+    <div class="build-sec"><!--flex-->
+      <div class="build"><!--CAJA TEXTO 1-->
+        <h1>Build The Community Your Fans Will Love</h1>
+        <p>
+          Huddle re-imagines the way we build communities. You have a voice, but so does your audience.
+          Create connections with your users as you engage in genuine discussion.
+        </p>
+        <a  class="btn btn_rosa" href="https://www.youtube.com">
+          Get Started For Free
+        </a>
+      </div>
+      <div class="illus"><!--CAJA IMAGEN 2-->
+        <img src="./images/illustration-mockups.svg" alt="">
+      </div>
+    </div><!--FIN HEADER-->
+  </header>
+  <main class="centrar">
+    <section class="services"><!--flex direction-->
+      <div class="dividir"><!--caja uno-->
+        <div class="content">
+          <h2>Grow Together</h2>
+          <p>
+            Generate meaningful discussions with your audience and build a strong, loyal community.
+            Think of the insightful conversations you miss out on with a feedback form.
+          </p>
+        </div>
+        <div class="cont_img"><!--caja dos-->
+          <img src="./images/illustration-grow-together.svg" alt="">
+        </div>
+      </div><!--FIN SERVICIO-->
+      </section><!--SESSION 1-->
+      <section class="services">
+        <div class="dividir">
+          <div class="content">
+            <h2>Flowing Conversations</h2>
+            <p class="quitar_left">
+              You wouldn't paginate a conversation in real life, so why do it online? Our threads
+              have just-in-time loading for a more natural flow.
+            </p>
+          </div>
+          <div class="cont_img cont_reverse"><!--caja dos-->
+            <img src="./images/illustration-flowing-conversation.svg" alt="">
+          </div>
+        </div>
+      </section><!--SESSION 2-->
+      <section class="services">
+        <div class="dividir">
+          <div class="content">
+            <h2>Your Users</h2>
+            <p>
+              It takes no time at all to integrate Huddle with your app's authentication solution.
+              This means, once signed in to your app, your users can start chatting immediately.
+            </p>
+          </div>
+          <div class="cont_img"><!--caja dos-->
+            <img src="./images/illustration-your-users.svg" alt="">
+          </div>
+        </div>
+      </section><!--SESSION 3-->
+      <section class="promo">
+        <h2>Ready To Build Your Community?</h2>
+        <a href="#" class="btn btn_rosa"> Get Started For Free</a>
+      </section>
+  </main>
+  <footer>
+    <img src="./images/footer-logo.svg" class="footer-logo" alt="">
+    <div class="footer-sec">
+      <div class="sec-1">
+        <ul>
+          <li>
+            <div class="add">
+              <img src="./images/icon-location.svg" alt="">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt ut labore et dolore magna aliqua
+              </p>
+            </div>
+          </li>
+          <li>
+            <div class="add">
+              <img src="./images/icon-phone.svg" alt="">
+              <p>
+                +1-543-123-4567
+              </p>
+            </div>
+          </li>
+          <li>
+            <div class="add">
+              <img src="./images/icon-email.svg" alt="">
+              <p>
+                example@huddle.com
+              </p>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="sec-2">
+        <ul class="separacion">
+          <li>About Us</li>
+          <li>What We Do</li>
+          <li>FAQ</li>
+        </ul>
+      </div>
+      <div class="sec-3">
+        <ul class="separacion">
+          <li>Career</li>
+          <li>Blog</li>
+          <li>Contact Us</li>
+        </ul>
+      </div>
+      <ul class="contenedor_social">
+        <li>
+          <a href="#" class="redes_sociales">
+            <img src="../assets/images/twiter.png" alt="">
+          </a>
+        </li>
+        <li>
+          <a href="#" class="redes_sociales">
+            <img src="../assets/images/facebook.png" alt="">
+          </a>
+        </li>
+        <li>
+          <a href="#" class="redes_sociales">
+            <img src="../assets/images/instagram.png" alt="">
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="copy">
+      &copy; Copyright 2018 Huddle. All rights
+      reserved.
+    </div>
+  </footer>
+</body>
+</html>
